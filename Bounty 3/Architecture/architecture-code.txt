@@ -1,0 +1,7 @@
+graph TD;
+
+    subgraph "Bounty 3: YouTube Data Pipeline"
+        YouTube_API[(YouTube Data API v3)] -->|Fetch channel stats| Zapier_YT[(Zapier Webhook Step)]
+        Zapier_YT -->|Push data| YouTubeTable[(PostgreSQL Table: youtube_pleblab)]
+        YouTubeTable -->|Display stats| LookerStudioYT[(Looker Studio Dashboard)]
+    end

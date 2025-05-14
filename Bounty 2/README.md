@@ -20,3 +20,9 @@ This bounty implements the first actual **data pipeline**, pulling user data (e.
 - Access to GCP analytics database
 
 This sets the pattern for all future data pipelines from other platforms.
+
+## Dashboard
+
+To view the collected data, visit the Looker Studio dashboard:  
+[https://lookerstudio.google.com/reporting/c7222b3c-70cd-4471-8481-d50021e2e522](https://lookerstudio.google.com/reporting/c7222b3c-70cd-4471-8481-d50021e2e522)
+```
